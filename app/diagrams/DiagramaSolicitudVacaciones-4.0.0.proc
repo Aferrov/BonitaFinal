@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_FPX-YEFFEfCDe-tRAjmlHQ" name="DiagramaSolicitudVacaciones" version="4.0.0" bonitaModelVersion="8">
-    <elements xmi:type="process:Pool" xmi:id="_FPX-YUFFEfCDe-tRAjmlHQ" name="Pool" version="4.0.0">
+    <elements xmi:type="process:Pool" xmi:id="_FPX-YUFFEfCDe-tRAjmlHQ" name="Validar solicitud" version="4.0.0">
       <elements xmi:type="process:Lane" xmi:id="_FPX-YkFFEfCDe-tRAjmlHQ" name="Employee lane" actor="_FPX-zEFFEfCDe-tRAjmlHQ">
         <elements xmi:type="process:StartEvent" xmi:id="_FPX-Y0FFEfCDe-tRAjmlHQ" name="Ingresar Solicitud" outgoing="_FPX-s0FFEfCDe-tRAjmlHQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_FPX-ZEFFEfCDe-tRAjmlHQ" name="" content="" returnTypeFixed="true"/>
@@ -53,7 +53,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_FPX-jEFFEfCDe-tRAjmlHQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_FPX-jUFFEfCDe-tRAjmlHQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:EndEvent" xmi:id="_FPX-jkFFEfCDe-tRAjmlHQ" name="End1" incoming="_FPX-yUFFEfCDe-tRAjmlHQ">
+        <elements xmi:type="process:EndEvent" xmi:id="_FPX-jkFFEfCDe-tRAjmlHQ" name="Recordatorio enviado" incoming="_FPX-yUFFEfCDe-tRAjmlHQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_FPX-j0FFEfCDe-tRAjmlHQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_FPX-kEFFEfCDe-tRAjmlHQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_FPX-kUFFEfCDe-tRAjmlHQ" name="" content="" returnTypeFixed="true"/>
@@ -275,14 +275,14 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_FPYleUFFEfCDe-tRAjmlHQ" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_FPYlekFFEfCDe-tRAjmlHQ" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FPYle0FFEfCDe-tRAjmlHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FPYle0FFEfCDe-tRAjmlHQ" points="[-1, 14, -132, -347]$[-1, 367, -132, 6]$[81, 367, -50, 6]"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_FPYlfEFFEfCDe-tRAjmlHQ" type="4001" element="_FPX-tkFFEfCDe-tRAjmlHQ" source="_FPX_GEFFEfCDe-tRAjmlHQ" target="_FPX-90FFEfCDe-tRAjmlHQ" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_FPYlfUFFEfCDe-tRAjmlHQ" type="6001">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_FPYlfkFFEfCDe-tRAjmlHQ" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_FPYlf0FFEfCDe-tRAjmlHQ" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FPYlgEFFEfCDe-tRAjmlHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FPYlgEFFEfCDe-tRAjmlHQ" points="[50, 0, -135, 375]$[178, 0, -7, 375]$[178, -361, -7, 14]"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_FPYlgUFFEfCDe-tRAjmlHQ" type="4001" element="_FPX-uUFFEfCDe-tRAjmlHQ" source="_FPX-90FFEfCDe-tRAjmlHQ" target="_FPX--0FFEfCDe-tRAjmlHQ" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_FPYlgkFFEfCDe-tRAjmlHQ" type="6001">
@@ -296,7 +296,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_FPYliEFFEfCDe-tRAjmlHQ" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_FPYliUFFEfCDe-tRAjmlHQ" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FPYlikFFEfCDe-tRAjmlHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FPYlikFFEfCDe-tRAjmlHQ" points="[0, 22, -232, -81]$[0, 78, -232, -25]$[182, 78, -50, -25]"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_FPYli0FFEfCDe-tRAjmlHQ" type="4001" element="_FPX-wEFFEfCDe-tRAjmlHQ" source="_FPX--0FFEfCDe-tRAjmlHQ" target="_FPX_AUFFEfCDe-tRAjmlHQ" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_FPYljEFFEfCDe-tRAjmlHQ" type="6001">
