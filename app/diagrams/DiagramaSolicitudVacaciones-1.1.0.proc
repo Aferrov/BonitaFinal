@@ -71,7 +71,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_1Iq3xz9bEfCjLrrrvA3Zfg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_1Iq3xj9bEfCjLrrrvA3Zfg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:EndEvent" xmi:id="_apYDkD9dEfCjLrrrvA3Zfg" name="End1" incoming="_apbG4D9dEfCjLrrrvA3Zfg">
+        <elements xmi:type="process:EndEvent" xmi:id="_apYDkD9dEfCjLrrrvA3Zfg" name="Recordatorio enviado" incoming="_apbG4D9dEfCjLrrrvA3Zfg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_apZRsT9dEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_apZRsD9dEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_apZRsj9dEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
