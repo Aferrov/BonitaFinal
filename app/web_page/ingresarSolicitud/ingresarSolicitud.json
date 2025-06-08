@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "481f7a3f-95c7-49e7-9483-de5c303de4b2",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1749355017884,
+  "lastUpdate" : 1749359985582,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -94,7 +94,9 @@
                 "reference" : "51e767cf-84c2-4c24-b882-7f1d6ad0bb09",
                 "hasValidationError" : false,
                 "id" : "nuevaSolicitudVacaciones",
-                "binding" : { }
+                "binding" : {
+                  "dataExt" : "nuevaSolicitudVacaciones"
+                }
               }
             ],
             [
