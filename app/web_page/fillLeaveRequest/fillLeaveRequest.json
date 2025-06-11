@@ -1,10 +1,10 @@
 {
-  "id" : "ingresarSolicitud",
-  "name" : "ingresarSolicitud",
+  "id" : "fillLeaveRequest",
+  "name" : "fillLeaveRequest",
   "type" : "form",
   "uuid" : "481f7a3f-95c7-49e7-9483-de5c303de4b2",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1749359985582,
+  "lastUpdate" : 1749605507594,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -13,7 +13,16 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
         "reference" : "e2800e2f-3748-4db8-ba2c-811ea33eba56",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -51,7 +60,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Ingrese una solicitud de vacaciones"
+                    "value" : "Ingresa solicitud de vacaciones"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -91,11 +100,11 @@
                     "value" : false
                   }
                 },
-                "reference" : "51e767cf-84c2-4c24-b882-7f1d6ad0bb09",
+                "reference" : "bda94ed4-e2e1-45fe-8601-feefade9b224",
                 "hasValidationError" : false,
-                "id" : "nuevaSolicitudVacaciones",
+                "id" : "nuevaSolicitudVacacionesFragmento",
                 "binding" : {
-                  "dataExt" : "nuevaSolicitudVacaciones"
+                  "dataExt" : "formInput"
                 }
               }
             ],

@@ -131,7 +131,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_8j3G6z9KEfCjLrrrvA3Zfg" type="7002">
             <children xmi:type="notation:Shape" xmi:id="_8j3G7D9KEfCjLrrrvA3Zfg" type="3005" element="_8j3Gtz9KEfCjLrrrvA3Zfg" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_8j3G7T9KEfCjLrrrvA3Zfg" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8j3G7j9KEfCjLrrrvA3Zfg" x="206" y="82"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8j3G7j9KEfCjLrrrvA3Zfg" x="182" y="60"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_8j3G7z9KEfCjLrrrvA3Zfg" type="3002" element="_8j3Gsz9KEfCjLrrrvA3Zfg" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_8j3G8D9KEfCjLrrrvA3Zfg" type="5024">

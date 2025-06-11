@@ -86,7 +86,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_fwHFWz9jEfCjLrrrvA3Zfg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_fwHFXD9jEfCjLrrrvA3Zfg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:EndEvent" xmi:id="_fwHFXT9jEfCjLrrrvA3Zfg" name="Recordatorio enviado" incoming="_fwHFej9jEfCjLrrrvA3Zfg">
+        <elements xmi:type="process:EndEvent" xmi:id="_fwHFXT9jEfCjLrrrvA3Zfg" name="End1" incoming="_fwHFej9jEfCjLrrrvA3Zfg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_fwHFXj9jEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_fwHFXz9jEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_fwHFYD9jEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
@@ -283,7 +283,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_fwHF3j9jEfCjLrrrvA3Zfg" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_fwHF3z9jEfCjLrrrvA3Zfg" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fwHF4D9jEfCjLrrrvA3Zfg" points="[0, 22, -232, -81]$[0, 83, -232, -20]$[53, 83, -179, -20]$[53, 80, -179, -23]$[182, 80, -50, -23]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fwHF4D9jEfCjLrrrvA3Zfg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_fwHF4T9jEfCjLrrrvA3Zfg" type="4001" element="_fwHFcT9jEfCjLrrrvA3Zfg" source="_fwHFrT9jEfCjLrrrvA3Zfg" target="_fwHFsz9jEfCjLrrrvA3Zfg" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_fwHF4j9jEfCjLrrrvA3Zfg" type="6001">

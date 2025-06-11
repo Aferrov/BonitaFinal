@@ -53,7 +53,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_5mvA4T9qEfCjLrrrvA3Zfg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_5mvA4j9qEfCjLrrrvA3Zfg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:EndEvent" xmi:id="_5mvA4z9qEfCjLrrrvA3Zfg" name="Recordatorio enviado" incoming="_5mvBBj9qEfCjLrrrvA3Zfg">
+        <elements xmi:type="process:EndEvent" xmi:id="_5mvA4z9qEfCjLrrrvA3Zfg" name="End1" incoming="_5mvBBj9qEfCjLrrrvA3Zfg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_5mvA5D9qEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_5mvA5T9qEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_5mvA5j9qEfCjLrrrvA3Zfg" name="" content="" returnTypeFixed="true"/>
@@ -82,7 +82,7 @@
             <condition xmi:type="expression:Expression" xmi:id="_5mvAtT9qEfCjLrrrvA3Zfg" name="00:00:05" content="5000L" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long"/>
           </BoundaryIntermediateEvents>
           <formMapping xmi:type="process:FormMapping" xmi:id="_5mvAtj9qEfCjLrrrvA3Zfg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_vPt3oD9sEfCjLrrrvA3Zfg" name="validarSolicitud" content="c2f0c669-06cd-48c2-bf01-7070f9683b2a" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_vPt3oD9sEfCjLrrrvA3Zfg" name="validateLeaveRequest" content="c2f0c669-06cd-48c2-bf01-7070f9683b2a" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_5mvAuD9qEfCjLrrrvA3Zfg">
             <inputs xmi:type="process:ContractInput" xmi:id="_5mvAuT9qEfCjLrrrvA3Zfg" name="solicitudInput" type="COMPLEX" dataReference="solicitud" createMode="false">
@@ -100,7 +100,7 @@
         </defaultValue>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_5mvA7D9qEfCjLrrrvA3Zfg">
-        <targetForm xmi:type="expression:Expression" xmi:id="_Aaz8kD9rEfCjLrrrvA3Zfg" name="ingresarSolicitud" content="481f7a3f-95c7-49e7-9483-de5c303de4b2" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_Aaz8kD9rEfCjLrrrvA3Zfg" name="fillLeaveRequest" content="481f7a3f-95c7-49e7-9483-de5c303de4b2" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_5mvA7j9qEfCjLrrrvA3Zfg">
         <targetForm xmi:type="expression:Expression" xmi:id="_5mvA7z9qEfCjLrrrvA3Zfg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -225,13 +225,13 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_5mvBTD9qEfCjLrrrvA3Zfg" type="3027" element="_5mvA2j9qEfCjLrrrvA3Zfg" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_5mvBTT9qEfCjLrrrvA3Zfg" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5mvBTj9qEfCjLrrrvA3Zfg" x="180" y="210" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5mvBTj9qEfCjLrrrvA3Zfg" x="180" y="176" width="120" height="60"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_5mvBTz9qEfCjLrrrvA3Zfg" type="3003" element="_5mvA4z9qEfCjLrrrvA3Zfg" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_5mvBUD9qEfCjLrrrvA3Zfg" type="5025">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_5mvBUT9qEfCjLrrrvA3Zfg" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5mvBUj9qEfCjLrrrvA3Zfg" x="432" y="234"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5mvBUj9qEfCjLrrrvA3Zfg" x="432" y="197"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_5mvBLz9qEfCjLrrrvA3Zfg" type="3005" element="_5muZpz9qEfCjLrrrvA3Zfg" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_5mvBMD9qEfCjLrrrvA3Zfg" type="5005"/>
@@ -248,7 +248,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_5mvBVD9qEfCjLrrrvA3Zfg" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_5mvBVT9qEfCjLrrrvA3Zfg"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_5mvBVj9qEfCjLrrrvA3Zfg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5mvBVz9qEfCjLrrrvA3Zfg" x="53" y="10" width="1292" height="330"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5mvBVz9qEfCjLrrrvA3Zfg" x="53" y="10" width="1292" height="296"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_5mvBWD9qEfCjLrrrvA3Zfg"/>
@@ -284,7 +284,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_5mvBbz9qEfCjLrrrvA3Zfg" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_5mvBcD9qEfCjLrrrvA3Zfg" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5mvBcT9qEfCjLrrrvA3Zfg" points="[0, 22, -232, -81]$[0, 83, -232, -20]$[182, 83, -50, -20]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5mvBcT9qEfCjLrrrvA3Zfg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_5mvBcj9qEfCjLrrrvA3Zfg" type="4001" element="_5mvA_T9qEfCjLrrrvA3Zfg" source="_5mvBPj9qEfCjLrrrvA3Zfg" target="_5mvBRD9qEfCjLrrrvA3Zfg" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_5mvBcz9qEfCjLrrrvA3Zfg" type="6001">

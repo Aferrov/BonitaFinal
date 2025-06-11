@@ -1,9 +1,9 @@
 {
-  "id" : "nuevaSolicitudVacaciones",
-  "name" : "nuevaSolicitudVacaciones",
+  "id" : "nuevaSolicitudVacacionesFragmento",
+  "name" : "nuevaSolicitudVacacionesFragmento",
   "type" : "fragment",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1749359996585,
+  "lastUpdate" : 1749604989968,
   "rows" : [
     [
       {
@@ -21,7 +21,7 @@
           },
           "dateFormat" : {
             "type" : "constant",
-            "value" : "dd/MM/yyyy"
+            "value" : "MM/dd/yyyy"
           },
           "cssClasses" : {
             "type" : "constant",
@@ -37,7 +37,7 @@
           },
           "label" : {
             "type" : "interpolation",
-            "value" : "Fecha Inicio"
+            "value" : "Fecha de Inicio"
           },
           "type" : {
             "type" : "constant"
@@ -64,7 +64,7 @@
           },
           "placeholder" : {
             "type" : "constant",
-            "value" : "Enter a date (dd/MM/yyyy)"
+            "value" : "Enter a date (yyyy/MM/dd)"
           },
           "dimension" : {
             "type" : "constant",
@@ -124,8 +124,7 @@
             "value" : "Numero de Dias"
           },
           "placeholder" : {
-            "type" : "constant",
-            "value" : "Número de días a solicitar"
+            "type" : "constant"
           },
           "type" : {
             "type" : "constant",
